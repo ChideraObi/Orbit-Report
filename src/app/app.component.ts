@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'oribt-report';
 
   sourceList: Satellite[] = [];
-  
+
   constructor() {
     this.sourceList = [
        new Satellite("SiriusXM", "Communication", "2009-03-21", "LOW", true),
